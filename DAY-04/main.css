@@ -1,0 +1,23 @@
+/* Bütün elemanları etkileyip değiştirmek için * kullanılır */
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Belirli elemanları etkilemek için direk taglar kullanılır */
+h3 {
+    color: yellow;
+    text-align: right;
+}
+
+p {
+    color: aqua;
+}
+
+/* Class'larla yazmak div olan yerlerde semantiklik açısından önemlidir */
+.baslik{
+    color: red;
+    text-align: center;
+}
+
+
+

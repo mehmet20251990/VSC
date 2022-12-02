@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM BURADA</title>
+</head>
+<body>
+    <form action="">
+
+        <!-- Rakamsal değer ifade eden type'ların başlangıç value değerleri rakam olarak 
+            girilmezse ekranda görülmez. Data Type'lara dikkat...!!!  -->
+
+        <label for="name">NAME</label>
+        <input type="text" name="name" value="" id="name" placeholder="isim giriniz">
+        <input type="button" value="GONDER">
+        <label for="password">PASSWORD</label>
+        <input type="password" name="password" value="1234" id="password" placeholder="10 haneli giriniz">
+        <input type="button" value="GONDER">
+        <label for="">ID</label>
+        <input type="number" name="number" value="1234" id="number" placeholder="ID giriniz">
+        <input type="button" value="GONDER">
+        <br><br><hr><br>
+        <label for="">ARAMA</label>
+        <input type="search" name="search" value="arama" id="search" placeholder="Arama yapınız">
+        <br><br><hr><br>
+        <label for="">URL</label>
+        <input type="url" name="url" value="site" id="url" placeholder="Site giriniz">
+        <br><br><hr><br>
+        <label for="">EMAIL</label>
+        <input type="email" name="email" value="hesap" id="email" placeholder="E-posta giriniz">
+        <label for="">KULLANILMAZ</label>
+        <input type="text" disabled>
+
+        <!-- FARKLI TÜRLER -->
+        <br><hr><br>
+        <label for="">CHECKBOX</label>
+        <input type="checkbox" name="checkbox" id="checkbox">
+
+        <!-- Farklı seçimler yaptırabilmek için ayni type'ların name'leri de aynı olmalı -->
+        <label for="EVLİ">EVLİ</label>
+        <input type="radio" name="durum" id="EVLİ" value="EVLİ">
+        <label for="BEKAR">BEKAR</label>
+        <input type="radio" name="durum" id="BEKAR" value="BEKAR">
+        <input type="radio" name="durum" id="DUL" value="DUL">
+        <label for="DUL">DUL</label>
+
+        <label for="">DOSYA YÜKLE</label>
+        <input type="file" name="" id="">
+        <br>
+        <br>
+        <label for="">TARIH SEC</label>
+        <input type="date" name="" id="">
+
+        <!-- SELECT DENEYELİM -->
+        <label for="SAYILAR">SECENEKLER</label>
+        <select name="SAYILAR" multiple size="3">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <!-- OPTGROUP DENEYELİM -->
+        <label for="">OPTGROUP</label>
+        <select name="" id="">
+            <optgroup label="MEYVELER">
+                <option value="ELMA">ELMA</option>
+                <option value="ARMUT">ARMUT</option>
+            </optgroup>
+            <optgroup label="SEBZELER">
+                <option value="DOMATES">DOMATES</option>
+                <option value="SALATALIK">SALATALIK</option>
+            </optgroup>
+        </select>
+
+         <!-- TEXTAREA DENEYELİM, required varsa yazmak mecburidir...!!! -->
+      <label for="yorum">TEXTAREA YORUM</label>
+      <textarea name="yorum" id="yorum" cols="10" rows="5" placeholder="yorum yaziniz" required></textarea>
+
+        <input type="button" value="DUGME">
+        <input type="submit" value="GONDER">
+        <input type="reset" value="RESET">
+    </form>
+</body>
+</html>

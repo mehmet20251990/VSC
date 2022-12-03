@@ -1,0 +1,18 @@
+html{
+    background-color: green;
+}
+
+.container{
+    background-color: red;
+    width: 100vw; height: 100vh;
+}
+
+.test{
+    background-color: blue;
+    width: fit-content;
+
+    /* Sırayla 5 ve 0 birim ekler, tek rakam girilirse hepsine ekler, sıra aşağıda
+                           top  right  bottom  left */
+    padding: 5rem 0;
+
+}

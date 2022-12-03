@@ -1,0 +1,18 @@
+/* a'ların tıklanmadan önceki hali  */
+a:link{
+    color:aqua;
+    text-decoration: none;
+}
+
+/* a'ların tıklandıktan sonraki hali */
+a:visited{
+    color: darkmagenta;
+}
+
+/* a'ların fare ile üzerine gelinceki hali */
+a:hover{
+    color: green;
+}
+p:hover{
+    color: red;
+}
